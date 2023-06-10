@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>PassWord</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="pass-field">
+            <input type="password" placeholder="Create PassWord">
+            <i class="fa-solid fa-eye"></i>
+        </div>
+        <div class="content">
+            <p>Password Must Contains</p>
+            <ul class="requirement-list">
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At Least 8 characters Lenght</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At Least 1 Number (0-9)</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At Least 1 lawerCase Letter (a...z )</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At Least 1 Special Symbol (!...$)</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At Least 1 UpperCase Letter (A...Z)</span>
+                </li>
+
+            </ul>
+
+            <span></span>
+
+        </div>
+    </div>
+
+
+    <!-- The Password Validation using JS pure -->
+    <script src="script.js" defer></script>
+    <!-- The Password Validation using JQuery -->
+    <!-- <script src="JQuery.js" defer></script> -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+
+</body>
+
+</html>
